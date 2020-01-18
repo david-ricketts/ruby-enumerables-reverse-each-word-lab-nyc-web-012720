@@ -18,5 +18,5 @@ def  expect_any_instance_of(array)
   r_sentences =  sentences.collect do  |sentence| reverse_each_word(sentence)
  end
   
-  return r_sentences(" ")
+  return r_sentences.join(" ")
 end
