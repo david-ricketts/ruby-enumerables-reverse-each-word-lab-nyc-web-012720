@@ -12,7 +12,7 @@ end
 
 
 def  expect_any_instance_of(array)
-  sentences = array
+  words = array.s
   
   
   r_sentences =  sentences.collect do  |sentence| reverse_each_word(sentence)
